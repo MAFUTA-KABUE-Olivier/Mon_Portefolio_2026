@@ -156,7 +156,7 @@ section h2::after{
    border-collapse: collapse;
    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08); 
    border-radius: 10px;
-   ouverflow: hidden;
+   overflow: hidden;
 }
 
 .competences table th, .competences table td{
@@ -183,12 +183,13 @@ section h2::after{
    background-color: #F0F0F0
 }
 
-.competences table tbody thead th{
+.competences table thead th{
    text-align: left;
 }
 
 footer{
-   margin-top: 3em;background-color: var(--violet-doux);
+   margin-top: 3em;
+   background-color: var(--violet-doux);
    padding: 3rem 0;
    text-align: center;
 }
