@@ -374,3 +374,143 @@ contact-section {
 .liens a:hover {
     color: var(--violet-doux);
 }
+
+
+/*ok*/
+
+
+.passions {
+    width: 90%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.grid-passions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.passion-card {
+    background-color: #FFF;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.passion-card:hover {
+    transform: translateY(-5px);
+}
+
+.passion-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.passion-card .contenu {
+    padding: 2rem;
+    text-align: left;
+}
+
+.passion-card h3 {
+    color: var(--violet-doux);
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.passion-card h3 i {
+    margin-right: 8px;
+}
+
+.passion-card p {
+    color: var(--gris-fonce);
+    line-height: 1.6;
+}
+
+
+/*ok*/
+
+
+
+.container-divertissement {
+    max-width: 1100px;
+    margin: 4rem auto;
+    padding: 0 20px;
+}
+
+.intro-divertissement h2 {
+    margin-bottom: 10px;
+}
+
+.grid-double {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+.feature-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 25px;
+}
+
+.card-info h4 {
+    color: var(--violet-doux);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Section Flex pour Jeux et Balades */
+.flex-divert {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mini-card {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-left: 5px solid var(--violet-doux);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+}
+
+.icon-box {
+    font-size: 2.5rem;
+    color: var(--orange-vif);
+}
+
+.mini-card h4 {
+    color: var(--gris-tres-fonce);
+    margin-bottom: 5px;
+}
+
+.mini-card p {
+    color: var(--gris-fonce);
+    font-size: 0.95rem;
+}
